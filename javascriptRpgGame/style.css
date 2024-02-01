@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #text {
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  #game {
+    border-radius: 20px;
+    box-shadow: 10px 3px 100px lightslategray;
+    max-width: 500px;
+    max-height: 400px;
+    background-color: wheat;
+    color: white;
+    padding: 10px;
+  }
+  
+  #controls {
+    border-radius: 8px;
+    border: 1px black solid;
+    padding: 5px;
+  }
+  
+  #stats {
+    border-radius: 8px;
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
